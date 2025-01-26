@@ -241,6 +241,7 @@ header>hr,
     grid-template-columns: repeat(2,1fr);
     row-gap: 19.39px;
     column-gap: 19.5px;
+    /* max-width: 601px; */
 }
 .card{
     border-radius: 16px;
@@ -258,6 +259,7 @@ header>hr,
     text-align: center;
     font-size: 1rem;
     font-weight: 500;
+    color: #FFFFFF;
 }
 .cd11,.cd22{
     display: flex;
@@ -427,17 +429,23 @@ footer{
         grid-template-columns: repeat(2,1fr);
         row-gap: 11px;
         column-gap: 11px;
+        /* max-width: 358px; */
     }
     .our-stories{
         gap: 20px;
         margin-top: 40px;
         margin-bottom: 40px;
     }
+    .cd22>img{
+        width: 100%;
+    }
     .card{
         max-width: 174px;
+        width:100%;
     }
     .date{
         max-width: 103px;
+        /* width: 100%; */
         padding: 6px 11px 6px 11px;
         font-size: 0.5rem;
     }
@@ -454,5 +462,6 @@ footer{
         padding: 10px 36px;
         font-size: 1rem;
     }
+
 
 }
